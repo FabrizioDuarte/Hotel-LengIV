@@ -1,0 +1,61 @@
+.reserva {
+  width: 430px;
+  max-width: 90%;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 25px;
+  border: 2px solid #97131a;
+  background-color: white;
+  color: #333333;
+}
+
+.reserva::backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.reserva h2 {
+  margin-top: 15px;
+  clear: both;
+}
+
+.cerrar-reserva {
+  float: right;
+  padding: 5px 10px;
+}
+
+.reserva label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.reserva input {
+  width: 100%;
+  min-width: 0;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #999999;
+}
+
+.reserva form > button {
+  margin-top: 10px;
+}
+
+.botones-reserva {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.mensaje-validacion {
+  color: #97131a;
+}
+
+.reserva-aprobada {
+  padding: 15px;
+  border: 1px solid #46804b;
+  background-color: #e4f4e5;
+  color: #255a2a;
+  font-weight: bold;
+}

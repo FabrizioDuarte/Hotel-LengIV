@@ -1,0 +1,36 @@
+.lista-habitaciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.habitacion {
+  flex: 1 1 260px;
+  padding: 15px;
+  border: 1px solid #cccccc;
+  background-color: #fafafa;
+}
+
+.habitacion h3 {
+  color: #97131a;
+}
+
+.foto-habitacion {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.foto-habitacion img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.foto-habitacion:hover {
+  background-color: transparent;
+  opacity: 0.85;
+}
